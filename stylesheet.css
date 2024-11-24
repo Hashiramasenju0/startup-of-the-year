@@ -1,0 +1,50 @@
+/*
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: "sevillana" cursive;
+    background: url(../../../Downloads/chandrayaan-3-completes-flawle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-siz: cover;
+}
+h1 {
+    font-size: 3rem;
+    color: rgb(175, 241, 219);
+}
+hr {
+    border-color: rgb(29, 111, 133);
+    border-width: 3px;
+    max-width: 50px;
+}
+.buffer {
+    height: 10rem;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 250px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: rgb(7, 73, 92);
+    border-color: rgb(29, 111, 133);
+}
+ 
+.btn-primary:hover{
+    background-color: rgb(29, 111, 133) ;
+    border-color: rgb(29, 111, 133);
+    border-width: 3px;
+
+}
+
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
